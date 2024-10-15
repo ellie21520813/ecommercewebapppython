@@ -1,5 +1,5 @@
 
-import React, {useEffect, useState} from 'react'
+import React, {useState} from 'react'
 import axios from "axios"
 import { toast } from "react-toastify";
 import {Link, useNavigate} from "react-router-dom";
@@ -56,19 +56,17 @@ const Signup = () => {
           <section>
               <div className="leaves">
                   <div className="set">
-                      <div><img src="/imagelogin/leaf_01.png" alt="leaf1"/></div>
-                      <div><img src="/imagelogin/leaf_02.png" alt="leaf2"/></div>
-                      <div><img src="/imagelogin/leaf_03.png" alt="leaf3"/></div>
-                      <div><img src="/imagelogin/leaf_04.png" alt="leaf4"/></div>
-                      <div><img src="/imagelogin/leaf_01.png" alt="leaf5"/></div>
-                      <div><img src="/imagelogin/leaf_02.png" alt="leaf6"/></div>
-                      <div><img src="/imagelogin/leaf_03.png" alt="leaf7"/></div>
-                      <div><img src="/imagelogin/leaf_04.png" alt="leaf8"/></div>
+                      <div><img src="/imagelogin/b1.png" alt="leaf1"/></div>
+                      <div><img src="/imagelogin/b2.png" alt="leaf2"/></div>
+                      <div><img src="/imagelogin/b3.png" alt="leaf3"/></div>
+                      <div><img src="/imagelogin/b4.png" alt="leaf4"/></div>
+                      <div><img src="/imagelogin/b5.png" alt="leaf5"/></div>
+                      <div><img src="/imagelogin/b2.png" alt="leaf6"/></div>
+                      <div><img src="/imagelogin/b3.png" alt="leaf7"/></div>
+                      <div><img src="/imagelogin/b4.png" alt="leaf8"/></div>
                   </div>
               </div>
-              <img src="/imagelogin/bg.jpg" className="bg" alt="background"/>
-              <img src="/imagelogin/trees.png" className="trees" alt="trees"/>
-
+              <img src="/imagelogin/4.png" className="bg" alt="background"/>
               <div className="login">
                   <h2>Signup</h2>
                   <form onSubmit={handleSubmit}>
@@ -107,7 +105,7 @@ const Signup = () => {
                               type="password"
                               placeholder="confirm password"
                               className="email-form"
-                                 value={password2}
+                              value={password2}
                               name="password2"
                               onChange={handleOnchange}
                           />
@@ -115,7 +113,7 @@ const Signup = () => {
                       <div className="inputBox">
                           <input type="submit" value="Signup" className="submitButton" id="btn"/>
                       </div>
-                      <p ><Link className="signlink" to="/login">Have a account</Link></p>
+                      <p><Link className="signlink" to="/login">Have a account</Link></p>
                   </form>
               </div>
           </section>

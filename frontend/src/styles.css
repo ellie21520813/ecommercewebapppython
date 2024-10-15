@@ -377,7 +377,7 @@ section .girl {
 
 .login .inputBox ::placeholder {
     color: #8f2c24;
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 .login .inputBox #btn {
@@ -510,4 +510,10 @@ section .girl {
     color: #8f2c24;
     font-weight: 500;
     text-decoration: none;
+}
+
+.custom-navbar {
+    background: transparent;
+    position: absolute;
+
 }

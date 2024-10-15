@@ -30,19 +30,17 @@ const PasswordResetRequest = () => {
           <section>
               <div className="leaves">
                   <div className="set">
-                      <div><img src="/imagelogin/leaf_01.png" alt="leaf1"/></div>
-                      <div><img src="/imagelogin/leaf_02.png" alt="leaf2"/></div>
-                      <div><img src="/imagelogin/leaf_03.png" alt="leaf3"/></div>
-                      <div><img src="/imagelogin/leaf_04.png" alt="leaf4"/></div>
-                      <div><img src="/imagelogin/leaf_01.png" alt="leaf5"/></div>
-                      <div><img src="/imagelogin/leaf_02.png" alt="leaf6"/></div>
-                      <div><img src="/imagelogin/leaf_03.png" alt="leaf7"/></div>
-                      <div><img src="/imagelogin/leaf_04.png" alt="leaf8"/></div>
+                      <div><img src="/imagelogin/b1.png" alt="leaf1"/></div>
+                      <div><img src="/imagelogin/b2.png" alt="leaf2"/></div>
+                      <div><img src="/imagelogin/b3.png" alt="leaf3"/></div>
+                      <div><img src="/imagelogin/b4.png" alt="leaf4"/></div>
+                      <div><img src="/imagelogin/b5.png" alt="leaf5"/></div>
+                      <div><img src="/imagelogin/b2.png" alt="leaf6"/></div>
+                      <div><img src="/imagelogin/b3.png" alt="leaf7"/></div>
+                      <div><img src="/imagelogin/b4.png" alt="leaf8"/></div>
                   </div>
               </div>
-              <img src="/imagelogin/bg.jpg" className="bg" alt="background"/>
-              <img src="/imagelogin/trees.png" className="trees" alt="trees"/>
-
+              <img src="/imagelogin/4.png" className="bg" alt="background"/>
               <div className="login">
                   <h2>Enter your registered email</h2>
                   <form onSubmit={handleSubmit}>
@@ -67,7 +65,7 @@ const PasswordResetRequest = () => {
           </section>
       </div>
 
-)
+  )
 }
 
 export default PasswordResetRequest
